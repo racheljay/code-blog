@@ -8,6 +8,7 @@ This summer I have been working on improving the test history visibility for the
 # UI Improvements:
 I decided to go with Google Charts to represent the history data in a far more readable manner. The previous implementation had the history represented in a grid (much like a github contribution graph). This made the data difficult to parse visually, and it meant you had to hover over squares to get any additional information about an individual run. The timeline layout from Google Charts is a much better representation of how test behavior has changed over time. It has also made it a bit more clear which tests are exhibiting flaky behavior.
 
+![img]({{ site.baseurl }}/assets/images/flaky.png)
 
 # Completed Pull Requests:
 * [ frontend starter and endpoint for new test history grid #3368 ](https://github.com/web-platform-tests/wpt.fyi/pull/3368)
