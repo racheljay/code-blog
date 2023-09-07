@@ -2,6 +2,9 @@
 layout: post
 title:  "Google Summer of Code Wrap-up"
 ---
+Contributor: [Rachel Russell](https://github.com/racheljay)
+
+Mentors: [Kyle Ju](https://github.com/KyleJu), [Daniel Smith](https://github.com/DanielRyanSmith)
 ## Summary:
 This summer I have been working on improving the test history visibility for the web-platform-test dashboard [(wpt.fyi)](https://wpt.fyi/about). The goal of this project was to improve both the UI for seeing historical test results at a glance, while also improving the way test history was being fetched from Google Datastore. The previous method for observing test history made several individual calls to the datastore, and those needed to be reduced as much as possible.
 
@@ -50,7 +53,7 @@ I also had a great experience working with Go in the back end. I had _some_ prev
 * [ Add history handler tests #3485 ](https://github.com/web-platform-tests/wpt.fyi/pull/3485)
 
 ## Current Works In Progress:
-* [ History Timeline: Subtest Names should be in order #3473 ](https://github.com/web-platform-tests/wpt.fyi/issues/3473)
+* [ Correct subtest order #3496 ](https://github.com/web-platform-tests/wpt.fyi/pull/3496)
 
 ## Work To Be Completed:
 * [ Add test history documentation #3488 ](https://github.com/web-platform-tests/wpt.fyi/issues/3488)
