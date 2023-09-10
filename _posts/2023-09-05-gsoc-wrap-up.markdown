@@ -10,7 +10,7 @@ This summer I have been working on improving the test history visibility for the
 
 ### Viewing the new timeline:
 
-In order to generate a timeline for an individual test, navigate to a specific test on [wpt.fyi](https://wpt.fyi/results). Below the chart displaying the most recent test results, click on the blue "Show History" button.
+In order to generate a timeline for an individual test, navigate to a specific test on [staging.wpt.fyi](https://staging.wpt.fyi/results). Below the chart displaying the most recent test results, click on the blue "Show New History" button. _(If there is no "Show New History" button or if there is only one button which shows the previous implementation, the feature flag for the new timeline may need to be enabled at [staging.wpt.fyi/flags](https://staging.wpt.fyi/flags))_
 ![img]({{ site.baseurl }}/assets/images/result-table.png)
 
 Each browser will have it's own timeline representing past test behavior:
