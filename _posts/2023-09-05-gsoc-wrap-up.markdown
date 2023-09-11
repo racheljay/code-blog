@@ -6,7 +6,7 @@ Contributor: [Rachel Russell](https://github.com/racheljay)
 
 Mentors: [Kyle Ju](https://github.com/KyleJu), [Daniel Smith](https://github.com/DanielRyanSmith)
 ## Summary:
-This summer I have been working on improving the test history visibility for the web-platform-test dashboard [(wpt.fyi)](https://wpt.fyi/about). The goal of this project was to improve both the UI for seeing historical test results at a glance, while also improving the way test history was being fetched from Google Datastore. The previous method for observing test history made several individual calls to the datastore, and those needed to be reduced as much as possible.
+This summer I have been working on improving the test history visibility for the web-platform-test dashboard [(wpt.fyi)](https://wpt.fyi/about). The goal of this project was to improve both the UI for seeing historical test results at a glance, while also improving the way test history was being fetched from Google Datastore. The previous method for observing test history made several individual requests to the datastore, and those requests needed to be reduced through a new interface and data format for test history.
 
 ### Viewing the new timeline:
 
@@ -35,7 +35,7 @@ This was a great learning experience, especially as this project included both f
 
 On the front end, I had to gain experience with the Polymer library. Since Polymer is a depreciated library, the documentation was occasionally unhelpful and lacking in detail. This created a bit of a challenge. I had to rely a lot on examples from other areas of the code base as well as trial and error. It was great getting out of my comfort zone and trying a different front end library. Most of my previous front end work has been in React, so it was interesting to see the different ways the two libraries tackle similar issues, such as passing along properties and blending JavaScript with HTML.
 
-I also had a great experience working with Go in the back end. I had _some_ previous experience with Go, but most of my experience has been in the front end. I had a lot of fun learning the ends and outs of querying Datastore, processing the necessary data, and making that data available on a new endpoint to populate the history charts. It was also a good learning experience to include a unit test to make sure that my logic was preforming exactly the way I intended it to.
+I also had a great experience working with Go in the back end. I had _some_ previous experience with Go, but most of my experience has been in the front end. I had a lot of fun learning the ends and outs of querying Datastore, processing the necessary data, and making that data available on a new endpoint to populate the history charts. It was also a good learning experience to include unit tests to make sure that my logic was performing exactly the way I intended it to.
 
 <hr>
 
